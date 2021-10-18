@@ -1,10 +1,11 @@
-import React, { useState, Dispatch, SetStateAction, SyntheticEvent } from 'react';
+import React, { Dispatch, SetStateAction, SyntheticEvent } from 'react';
 import StatusColumn from './StatusColumn';
 import Order from './Order';
 
 interface OrdersProps {
   orders: { id: number; title: string; status: string }[];
   counter: number;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   setState: Dispatch<SetStateAction<any>>;
 }
 
