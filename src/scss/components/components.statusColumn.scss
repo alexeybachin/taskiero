@@ -1,0 +1,14 @@
+.app-status-column {
+  position: relative;
+  display: block;
+  padding: 8px 12px 12px;
+  border-radius: 4px;
+  background: $color__bg--lightest;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.09);
+
+  .app-status-column__title {
+    display: block;
+    font-size: calc(#{$fs__sm} + (#{$fs__nm} - #{$fs__sm}) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 900;
+  }
+}

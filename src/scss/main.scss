@@ -1,1 +1,10 @@
-@import "components/testComponent";
+/* settings */
+@import "settings/settings.variables";
+@import "settings/settings.base";
+@import "settings/settings.typography";
+@import "settings/settings.layout";
+@import "settings/settings.buttons";
+
+/* components */
+@import "components/components.statusColumn";
+@import "components/components.Order";

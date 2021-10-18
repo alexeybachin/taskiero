@@ -23,11 +23,12 @@ module.exports = {
   ],
   'rules': {
     'indent': [
-      'error',
+      1,
       2
     ],
+    'react/prop-types': ['off'], //TypeScript makes it redundant
     'linebreak-style': [
-      'error',
+      1,
       'unix'
     ],
     'quotes': [

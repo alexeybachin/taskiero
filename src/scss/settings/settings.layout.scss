@@ -1,0 +1,51 @@
+.app-wrapper {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
+
+  .app-header {
+    width: 100%;
+    height: 60px;
+    padding: 0 32px;
+    line-height: 60px;
+    background: $color__bg--light-blue;
+  }
+
+  .app-content {
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 32px 8px;
+  }
+
+  .app-footer {
+    width: 100%;
+    height: 60px;
+    padding: 0 8px;
+  }
+}
+
+.app-container {
+
+}
+
+.app-grid {
+  display: flex;
+  margin: 0 -8px;
+
+  .app-grid-item {
+    flex: 1;
+    margin: 0 8px;
+  }
+}
+
+[class*="app-spacer"] {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+[class*="app-spacer--32"] {
+  height: 32px;
+}

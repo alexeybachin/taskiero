@@ -1,0 +1,13 @@
+.app-order-card {
+  display: block;
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-top: 12px;
+  background: $color__bg--default;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.09);
+
+  .app-order-card__name {
+    margin-bottom: 8px;
+  }
+}

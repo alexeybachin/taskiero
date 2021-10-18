@@ -1,0 +1,27 @@
+.app-button {
+  display: block;
+  border: none;
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  color: $color__text--lightest;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  width: auto;
+  font-size: calc(#{$fs__sm} + (#{$fs__nm} - #{$fs__sm}) * ((100vw - 320px) / (1920 - 320)));
+  background: $color__bg--light-blue;
+  will-change: background;
+
+  &:hover {
+    background: $color__bg--accent-blue;
+  }
+}
+
+.app-button--small {
+  height: 32px;
+  line-height: 32px;
+  font-size: calc(#{$fs__xs} + (#{$fs__sm} - #{$fs__xs}) * ((100vw - 320px) / (1920 - 320)));
+}
