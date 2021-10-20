@@ -8,7 +8,8 @@
 
   .app-status-column__title {
     display: block;
-    font-size: calc(#{$fs__sm} + (#{$fs__nm} - #{$fs__sm}) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(#{$fs__sm} + #{$fluid-typography-ratio--nm} * 1vw);
     font-weight: 900;
+    color: $color__text--accent;
   }
 }

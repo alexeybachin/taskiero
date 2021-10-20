@@ -1,4 +1,4 @@
-.app-order-card {
+.app-task {
   display: block;
   overflow: hidden;
   border-radius: 3px;
@@ -7,7 +7,7 @@
   background: $color__bg--default;
   box-shadow: 0 2px 4px rgba(0,0,0,0.09);
 
-  .app-order-card__name {
+  .app-task__title {
     margin-bottom: 8px;
   }
 }

@@ -11,12 +11,12 @@
   cursor: pointer;
   transition: all 0.3s ease-in;
   width: auto;
-  font-size: calc(#{$fs__sm} + (#{$fs__nm} - #{$fs__sm}) * ((100vw - 320px) / (1920 - 320)));
-  background: $color__bg--light-blue;
+  font-size: calc(#{$fs__sm} + #{$fluid-typography-ratio--nm} * 1vw);
+  background: $color__bg--accent;
   will-change: background;
 
   &:hover {
-    background: $color__bg--accent-blue;
+    background: $color__bg--accent;
   }
 }
 

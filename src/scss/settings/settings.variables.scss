@@ -1,15 +1,15 @@
 /* text colors */
-$color__text--default: #0a0b14;
-$color__text--dark-blue: #090b29;
-$color__text--lightest: #FFFFFF;
-$color__link-default: #0f1243;
-$color__link-active: #db1c02;
+$color__text--default: #070c0d;
+$color__text--accent: #30444b;
+$color__text--lightest: #f0f7f9;
+$color__link-default: #57a5bc;
+$color__link-active: #395f6a;
 
 /* document colors */
 $color__bg--default: #FFFFFF;
-$color__bg--lightest: #F5F5F5;
-$color__bg--light-blue: #bec3f7;
-$color__bg--accent-blue: #b1b7fc;
+$color__bg--lightest: #f0f7f9;
+$color__bg--main: #2a5f6f;
+$color__bg--accent: #6bb1c7;
 
 /* font sizes */
 $fs__xs: 9px;
@@ -19,3 +19,15 @@ $fs__lg: 16px;
 $fs__xl: 24px;
 $fs__xxl: 32px;
 $fs__xxxl: 48px;
+
+/* font size modifiers */
+$fluid-typography-ratio--sm: 0.1;
+$fluid-typography-ratio--nm: 0.3;
+$fluid-typography-ratio--lg: 0.5;
+
+/* margins */
+$xs: 8px;
+$sm: 12px;
+$nm: 16px;
+$lg: 24px;
+$xl: 32px;

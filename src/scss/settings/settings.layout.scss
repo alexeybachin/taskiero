@@ -10,7 +10,14 @@
     height: 60px;
     padding: 0 32px;
     line-height: 60px;
-    background: $color__bg--light-blue;
+    background: $color__bg--main;
+
+    h1 {
+      font-size: $fs__xl;
+      text-transform: uppercase;
+      font-weight: 100;
+      color: $color__text--lightest;
+    }
   }
 
   .app-content {
@@ -34,6 +41,7 @@
   display: flex;
   margin: 0 -8px;
 
+  > *,
   .app-grid-item {
     flex: 1;
     margin: 0 8px;
