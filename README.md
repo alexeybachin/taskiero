@@ -1,6 +1,6 @@
 # Ordermaker
 
-An app that places kitchen order (demo use case)
+A simple use case of a task management app
 
 ### Available Scripts
 
